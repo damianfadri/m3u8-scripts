@@ -15,7 +15,7 @@ param (
 )
 BEGIN {
     $keyUriPattern = "#EXT-X-KEY:METHOD=AES-128,URI=""(.*)"""
-    $userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0"
+    $userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"
 
     # Detect if the user uses a path with directory.
     # If there's no directory, use the current directory instead.
